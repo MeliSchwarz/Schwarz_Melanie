@@ -1,0 +1,10 @@
+.row{
+    background-color: #628EB4 ;
+    padding: 20px;
+}
+.contenedor{
+    width:auto;
+    display: inline-block;
+    text-align: justify;
+    
+}
