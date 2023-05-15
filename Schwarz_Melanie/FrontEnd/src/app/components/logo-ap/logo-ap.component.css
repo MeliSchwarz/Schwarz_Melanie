@@ -2,20 +2,21 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 5em;
 }
-
+.redes{
+    margin-right: 0.5em;
+}
 #logoAP{
     width: 150px;
 }
-img {
-        width: 40px;
-    }
-.btn {
-    border-radius:20px ;
-
+img{
+    width: 50px;
 }
-/*Para vista de celular*/
+.btn{
+    border-width: medium;
+}
+
+/*--- Para la vista de celular ---*/
 @media (max-width: 575px){
     .container{
         flex-direction: column;
@@ -23,9 +24,9 @@ img {
     .redes{
         display: flex;
         flex-direction: column;
-        lign-items: center
+        align-items: center;
     }
     .redes img{
-        margin: 0,2em;
+        margin: 0.2em;
     }
 }

@@ -32,3 +32,9 @@ div{
         top: 600px;
     }
 }
+
+/*etiqueta nombre*/
+#nombre{
+    font-weight: bold;
+    margin-top: 30%;
+}
